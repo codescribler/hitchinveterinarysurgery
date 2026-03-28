@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hitchin Veterinary Surgery — Expert Care for Your Pet</title>
+  <meta name="description" content="Hitchin Veterinary Surgery — independent, employee-owned veterinary care for Hertfordshire families. Cat Friendly Clinic certified. 25+ years of trusted expert care.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "vumg7p891a");
+  </script>
+</head>
+<body>
+
+  <!-- DEMO MODAL -->
+  <div class="modal-backdrop" id="demoModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-card">
+      <button class="modal-close" id="modalClose" aria-label="Close modal">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M15 5L5 15M5 5L15 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </button>
+      <div class="modal-icon">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M16 4C9.373 4 4 9.373 4 16s5.373 12 12 12 12-5.373 12-12S22.627 4 16 4z" fill="#E8F0EB"/>
+          <path d="M16 10v6M16 20h.01" stroke="#2D5A3D" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <h2 class="modal-title" id="modalTitle">This Is a Demo Website</h2>
+      <p class="modal-body">This site was built speculatively to show Hitchin Veterinary Surgery what their website could look like. If you're interested in discussing this further, get in touch with Daniel at Dreamfree.</p>
+      <div class="modal-actions">
+        <a href="tel:07786556885" class="btn btn-primary btn-full">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" fill="currentColor"/>
+          </svg>
+          Call Daniel: 07786 556 885
+        </a>
+        <a href="mailto:daniel@dreamfree.co.uk?subject=I'm interested in discussing the demo website for Hitchin Veterinary Surgery" class="btn btn-outline btn-full">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" fill="currentColor"/>
+          </svg>
+          Email Daniel
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- STICKY CTA BAR -->
+  <div class="sticky-cta-bar" id="stickyCta" aria-hidden="true">
+    <span>Ready to book?</span>
+    <button class="btn btn-primary btn-pulse cta-trigger">Book an Appointment</button>
+  </div>
+
+  <!-- HEADER / NAV -->
+  <header class="site-header" id="siteHeader">
+    <div class="trust-bar">
+      <div class="container">
+        <span>Independent</span>
+        <span class="separator">·</span>
+        <span>Employee-Owned Since 2023</span>
+        <span class="separator">·</span>
+        <span>Cat Friendly Clinic Certified</span>
+        <span class="separator">·</span>
+        <span>25+ Years Serving Hertfordshire</span>
+      </div>
+    </div>
+    <nav class="nav" aria-label="Main navigation">
+      <div class="container nav-inner">
+        <a href="#" class="nav-logo" aria-label="Hitchin Veterinary Surgery">
+          <img src="images/logo.png" alt="Hitchin Veterinary Surgery" width="140" height="52">
+        </a>
+        <button class="nav-hamburger" id="navToggle" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <div class="nav-links" id="navLinks">
+          <a href="#" class="nav-link">Home</a>
+          <a href="#" class="nav-link">Services</a>
+          <a href="#" class="nav-link">Our Team</a>
+          <a href="#" class="nav-link">Cat Clinic</a>
+          <a href="#" class="nav-link">Contact</a>
+          <button class="btn btn-primary nav-cta cta-trigger">Book Appointment</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="hero-content">
+        <div class="hero-copy reveal-item">
+          <span class="label-tag">Employee-Owned Since 2023</span>
+          <h1 class="hero-h1">Your Pet Deserves Expert Care. From Vets Who Genuinely Care.</h1>
+          <p class="hero-sub">Hitchin Veterinary Surgery has been trusted by families across Hertfordshire for over 25 years. We're employee-owned, Cat Friendly Clinic certified, and equipped with advanced surgical technology. When your pet's health matters, we're here.</p>
+          <div class="hero-ctas">
+            <button class="btn btn-primary btn-lg btn-pulse cta-trigger">Book an Appointment</button>
+            <button class="btn btn-outline btn-lg cta-trigger">Meet Our Team</button>
+          </div>
+          <div class="hero-metrics">
+            <div class="metric-item">
+              <span class="metric-number metric-value">25+</span>
+              <span class="metric-label">Years in Hertfordshire</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-number metric-value">3</span>
+              <span class="metric-label">Advanced Certifications</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-number metric-value">100%</span>
+              <span class="metric-label">Employee-Owned</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-number metric-value">5</span>
+              <span class="metric-label">Surgical Specialisms</span>
+            </div>
+          </div>
+          <div class="hero-trust">
+            <div class="trust-badge">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 2L3 7v5c0 5.25 3.75 10.15 9 11.35C17.25 22.15 21 17.25 21 12V7l-9-5z" fill="#2D5A3D"/></svg>
+              <span>25+ Years</span>
+            </div>
+            <div class="trust-badge">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z" fill="#2D5A3D"/></svg>
+              <span>Cat Friendly Certified</span>
+            </div>
+            <div class="trust-badge">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z" fill="#2D5A3D"/></svg>
+              <span>Employee-Owned</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-image reveal-item" style="--delay: 0.15s">
+          <img src="images/hero.jpg" alt="Caring vet with a dog at Hitchin Veterinary Surgery" loading="eager">
+        </div>
+      </div>
+    </section>
+
+    <!-- PROBLEM -->
+    <section class="problem-section" id="problem">
+      <div class="container">
+        <div class="section-intro reveal-item">
+          <span class="label-tag label-dark">The Reality of Finding a Vet You Trust</span>
+          <h2>Pet emergencies are stressful. You need a vet you can rely on completely.</h2>
+        </div>
+        <div class="problem-grid">
+          <div class="problem-col-left">
+            <div class="problem-card reveal-item" style="--delay: 0.1s">
+              <div class="problem-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z" fill="#2D5A3D"/></svg>
+              </div>
+              <h3>Your pet is unwell — and you need answers now</h3>
+              <p>Maybe your cat won't eat. Maybe your dog limps after a walk. You need expert diagnosis and a plan. You don't have time for second-guessing or waiting lists.</p>
+            </div>
+            <div class="problem-card reveal-item" style="--delay: 0.2s">
+              <div class="problem-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="#2D5A3D"/></svg>
+              </div>
+              <h3>Pet emergencies are frightening</h3>
+              <p>You're worried about your pet's pain, about the diagnosis, about whether you'll be overcharged or oversold unnecessary treatments. You need a vet who listens and treats your pet like family.</p>
+            </div>
+          </div>
+          <div class="problem-col-right">
+            <div class="problem-card problem-card-large reveal-item" style="--delay: 0.25s">
+              <div class="problem-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z" fill="#2D5A3D"/></svg>
+              </div>
+              <h3>Your pet is part of your family — they shouldn't be treated like a transaction</h3>
+              <p>Every pet deserves to be treated with expertise, respect, and compassion. Your pet's wellbeing is not a luxury — it's essential. You shouldn't have to compromise on quality of care or wonder if your vet genuinely has your pet's best interests at heart.</p>
+              <p class="problem-emphasis">That's exactly why we built a practice where the people who care for your pet actually own it.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GUIDE -->
+    <section class="guide-section" id="guide">
+      <div class="container">
+        <div class="guide-grid">
+          <div class="guide-copy reveal-item">
+            <span class="label-tag">Why Hitchin Veterinary Surgery</span>
+            <h2>We understand. Your pet is family.</h2>
+            <p class="body-lg">When they're unwell or injured, you're worried sick. You need someone who listens, explains, and cares as much as you do. That's not a sales pitch — it's why we do this.</p>
+            <p>Hitchin Veterinary Surgery is employee-owned and independently operated. We're not a corporate chain chasing metrics. We're vets and nurses who've built a practice around genuine, expert care — and since May 2023, we own it together.</p>
+            <div class="emp-owned-callout">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 2L3 7v5c0 5.25 3.75 10.15 9 11.35C17.25 22.15 21 17.25 21 12V7l-9-5z" fill="#2D5A3D"/></svg>
+              <p><strong>The employee-owned difference:</strong> Every decision we make is about your pet's care, not shareholder returns. We own this practice — so we treat every patient as if they were our own.</p>
+            </div>
+          </div>
+          <div class="guide-credentials reveal-item" style="--delay: 0.15s">
+            <h3 class="credentials-title">Why Families Trust Us</h3>
+            <ul class="credentials-list">
+              <li class="credential-item" style="--i:0">
+                <div class="cred-check">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="white"/></svg>
+                </div>
+                <div>
+                  <strong>25+ years of experience</strong>
+                  <span>Founded by Stuart de Wolf — advanced certification in radiography and orthopaedics</span>
+                </div>
+              </li>
+              <li class="credential-item" style="--i:1">
+                <div class="cred-check">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="white"/></svg>
+                </div>
+                <div>
+                  <strong>RCVS-qualified advanced practitioners</strong>
+                  <span>Directors with advanced certificates in orthopaedics, vet nurses with 30+ years experience</span>
+                </div>
+              </li>
+              <li class="credential-item" style="--i:2">
+                <div class="cred-check">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="white"/></svg>
+                </div>
+                <div>
+                  <strong>Cat Friendly Clinic certified</strong>
+                  <span>We understand feline anxiety. Low-stress handling, quiet rooms, familiar scents</span>
+                </div>
+              </li>
+              <li class="credential-item" style="--i:3">
+                <div class="cred-check">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="white"/></svg>
+                </div>
+                <div>
+                  <strong>Advanced surgical technology</strong>
+                  <span>Laparoscopic keyhole surgery, TPLO orthopaedics, digital radiography, ultrasound — in-house</span>
+                </div>
+              </li>
+              <li class="credential-item" style="--i:4">
+                <div class="cred-check">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="white"/></svg>
+                </div>
+                <div>
+                  <strong>Employee-owned trust</strong>
+                  <span>Since May 2023, the team owns and runs this practice — every decision is about your pet, not profit</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials-section" id="testimonials">
+      <div class="container">
+        <div class="section-intro reveal-item">
+          <span class="label-tag">What Pet Owners Say</span>
+          <h2>Stories from Hertfordshire families</h2>
+        </div>
+        <div class="testimonials-grid">
+          <article class="testimonial-card reveal-item" style="--delay: 0.1s">
+            <div class="quote-mark">&ldquo;</div>
+            <blockquote>Bella went into labour at midnight on a Saturday. We panicked. We called Hitchin Vets and they answered. Stuart came in specially, delivered her puppies safely, and checked on her every 12 hours for a week after. They didn't have to do that. But they did. Bella and all four puppies are thriving. We're customers for life.</blockquote>
+            <footer class="testimonial-footer">
+              <div class="testimonial-avatar">J</div>
+              <div>
+                <cite class="testimonial-name">Jane &amp; Mark</cite>
+                <span class="testimonial-pet">Bella's owners — Dachshund breeder, Hitchin</span>
+              </div>
+            </footer>
+          </article>
+          <article class="testimonial-card testimonial-card--featured reveal-item" style="--delay: 0.2s">
+            <div class="quote-mark">&ldquo;</div>
+            <blockquote>When Oscar limped in, our previous vet suggested referral to a specialist. Stuart examined him, did detailed radiographs in-house, and diagnosed a cartilage issue that could be treated with targeted physiotherapy. No surgery needed. He explained the whole thing on a diagram. Saved us hundreds and Oscar's still running around two years later.</blockquote>
+            <footer class="testimonial-footer">
+              <div class="testimonial-avatar">D</div>
+              <div>
+                <cite class="testimonial-name">David &amp; Susan</cite>
+                <span class="testimonial-pet">Oscar's owners — Spaniel cross, Hitchin</span>
+              </div>
+            </footer>
+          </article>
+          <article class="testimonial-card reveal-item" style="--delay: 0.3s">
+            <div class="quote-mark">&ldquo;</div>
+            <blockquote>I've never seen a vet handle an anxious cat like they do. They didn't rush Luna, kept her calm, and genuinely seemed to understand she was frightened. When we left, she was still stressed, but we felt understood. That matters.</blockquote>
+            <footer class="testimonial-footer">
+              <div class="testimonial-avatar">R</div>
+              <div>
+                <cite class="testimonial-name">Rachel</cite>
+                <span class="testimonial-pet">Luna's owner — Persian cat, Letchworth</span>
+              </div>
+            </footer>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- THREE-STEP PLAN -->
+    <section class="plan-section" id="plan">
+      <div class="container">
+        <div class="section-intro reveal-item">
+          <span class="label-tag">How It Works</span>
+          <h2>The Hitchin Vets Way: Simple, Clear, Caring</h2>
+        </div>
+        <div class="plan-steps">
+          <div class="plan-step reveal-item" style="--delay: 0.05s">
+            <div class="step-number">01</div>
+            <div class="step-content">
+              <h3>Contact Us &amp; Get Seen</h3>
+              <p>Ring us on <a href="tel:01462436963" class="tel-link">01462 436963</a> or book online. Tell us what's happening with your pet. If it's urgent, we'll fit you in. Same-day emergency appointments available.</p>
+            </div>
+          </div>
+          <div class="plan-connector" aria-hidden="true">
+            <svg width="24" height="40" viewBox="0 0 24 40" fill="none"><path d="M12 0v32M5 28l7 8 7-8" stroke="#2D5A3D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="plan-step reveal-item" style="--delay: 0.15s">
+            <div class="step-number">02</div>
+            <div class="step-content">
+              <h3>Expert Diagnosis &amp; Honest Conversation</h3>
+              <p>We listen first. We examine your pet thoroughly, run diagnostics in-house if needed (results fast), then explain what we've found in plain language. No pressure. No unnecessary treatments.</p>
+            </div>
+          </div>
+          <div class="plan-connector" aria-hidden="true">
+            <svg width="24" height="40" viewBox="0 0 24 40" fill="none"><path d="M12 0v32M5 28l7 8 7-8" stroke="#2D5A3D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="plan-step reveal-item" style="--delay: 0.25s">
+            <div class="step-number">03</div>
+            <div class="step-content">
+              <h3>Treatment &amp; Peace of Mind</h3>
+              <p>Whether it's a vaccine booster, dental clean, orthopaedic surgery, or specialist imaging — we handle it with expert care and keep you informed every step. Follow-up checks and aftercare advice included.</p>
+              <button class="btn btn-primary cta-trigger" style="margin-top: 1.25rem">Book an Appointment</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services-section" id="services">
+      <div class="container">
+        <div class="section-intro reveal-item">
+          <span class="label-tag">Our Services</span>
+          <h2>Expert care across every stage of your pet's life</h2>
+        </div>
+
+        <!-- Zig-zag row 1 -->
+        <div class="service-feature reveal-item">
+          <div class="service-feature-copy">
+            <h3>General Consultations &amp; Health Checks</h3>
+            <p>Whether your pet is poorly, needs a health check, or you're just worried about something, our vets offer thorough consultations with detailed explanations. Routine vaccinations, flea/worm treatments, microchipping, and preventative care. Think of us as your first call.</p>
+            <button class="btn btn-text cta-trigger">Find out more &rarr;</button>
+          </div>
+          <div class="service-feature-image">
+            <img src="images/cat-care.jpg" alt="Gentle cat care at Hitchin Vets" loading="lazy">
+          </div>
+        </div>
+
+        <!-- Zig-zag row 2 (reversed) -->
+        <div class="service-feature service-feature--reversed reveal-item" style="--delay: 0.1s">
+          <div class="service-feature-image">
+            <img src="images/surgery-care.jpg" alt="Advanced surgical technology at Hitchin Vets" loading="lazy">
+          </div>
+          <div class="service-feature-copy">
+            <h3>Advanced Surgery (Orthopaedic &amp; Soft Tissue)</h3>
+            <p>Complex fractures, joint problems, ligament tears, internal injuries — these need precision and experience. Our directors hold advanced certifications in orthopaedics. We perform TPLO surgery, laparoscopic keyhole surgery, and soft tissue surgery. Many cases that would once need referral can now be handled here.</p>
+            <button class="btn btn-text cta-trigger">Find out more &rarr;</button>
+          </div>
+        </div>
+
+        <!-- Remaining services grid -->
+        <div class="services-grid">
+          <div class="service-card reveal-item" style="--i:0; --delay: 0.0s">
+            <div class="service-card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 3c1.93 0 3.5 1.57 3.5 3.5S13.93 13 12 13s-3.5-1.57-3.5-3.5S10.07 6 12 6zm7 13H5v-.23c0-.62.28-1.2.76-1.58C7.47 15.82 9.64 15 12 15s4.53.82 6.24 2.19c.48.38.76.97.76 1.58V19z" fill="#2D5A3D"/></svg>
+            </div>
+            <h3>Emergency &amp; Out-of-Hours Care</h3>
+            <p>Pets don't get ill on a schedule. If your pet is injured or in distress outside standard hours, we have emergency appointment slots for trauma, acute illness, and urgent pain management.</p>
+          </div>
+          <div class="service-card reveal-item" style="--i:1; --delay: 0.08s">
+            <div class="service-card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="#2D5A3D"/></svg>
+            </div>
+            <h3>Cat Friendly Clinic</h3>
+            <p>Cats are not small dogs. We're certified Cat Friendly, meaning low-stress handling, quiet consultation rooms, and vets who understand feline behaviour. If you have an anxious cat, we know how to help.</p>
+          </div>
+          <div class="service-card reveal-item" style="--i:2; --delay: 0.16s">
+            <div class="service-card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M9 21H7c-1.1 0-2-.9-2-2V5c0-1.1.9-2 2-2h2c1.1 0 2 .9 2 2v14c0 1.1-.9 2-2 2zm8 0h-2c-1.1 0-2-.9-2-2v-8c0-1.1.9-2 2-2h2c1.1 0 2 .9 2 2v8c0 1.1-.9 2-2 2z" fill="#2D5A3D"/></svg>
+            </div>
+            <h3>Dentistry, Radiography &amp; Ultrasound</h3>
+            <p>Dental disease is silent and common. Professional cleaning, extractions, full mouth digital radiography (award-winning setup), and ultrasound for internal diagnosis — all in-house.</p>
+          </div>
+          <div class="service-card reveal-item" style="--i:3; --delay: 0.24s">
+            <div class="service-card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 1L3 5v6c0 5.25 3.75 10.15 9 11.35C17.25 22.15 21 17.25 21 12V7l-9-6z" fill="#2D5A3D"/></svg>
+            </div>
+            <h3>Nurse Clinics &amp; Preventative Care</h3>
+            <p>Our experienced nurses run wellness clinics for vaccinations, health checks, weight management, and behavioural advice. Prevention is always cheaper and kinder than cure.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STAKES -->
+    <section class="stakes-section" id="stakes">
+      <div class="stakes-bg" style="background-image: url('images/countryside-bg.jpg')"></div>
+      <div class="stakes-overlay"></div>
+      <div class="container stakes-content">
+        <div class="section-intro reveal-item">
+          <span class="label-tag label-light">The Risk of Waiting</span>
+          <h2>What Happens If You Delay</h2>
+        </div>
+        <div class="stakes-list">
+          <div class="stakes-item reveal-item" style="--delay: 0.05s">
+            <div class="stakes-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z" fill="currentColor"/></svg>
+            </div>
+            <div>
+              <h3>Minor issues become major ones</h3>
+              <p>Delaying a health check can turn a treatable problem into a serious one. An infection gets worse. A joint problem leads to chronic pain. A lump that could have been caught early becomes untreatable. Prevention costs pennies compared to emergency treatment.</p>
+            </div>
+          </div>
+          <div class="stakes-item reveal-item" style="--delay: 0.15s">
+            <div class="stakes-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z" fill="currentColor"/></svg>
+            </div>
+            <div>
+              <h3>The wrong vet costs more than money</h3>
+              <p>If you choose a vet based on convenience alone, you might end up with unnecessary treatments, poor communication, or a vet who doesn't listen. You'll question every recommendation. You'll feel uncertain when your pet really needs you to advocate for them.</p>
+            </div>
+          </div>
+          <div class="stakes-item reveal-item" style="--delay: 0.25s">
+            <div class="stakes-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="currentColor"/></svg>
+            </div>
+            <div>
+              <h3>Your pet suffers longer than necessary</h3>
+              <p>Your pet can't tell you how much pain they're in. Early diagnosis and treatment is the kindest thing you can do for them. Don't wait until there's a crisis. Book a check-up today and give them the care they deserve.</p>
+            </div>
+          </div>
+        </div>
+        <div class="stakes-cta reveal-item" style="--delay: 0.35s">
+          <button class="btn btn-light cta-trigger">Don't Risk Your Pet's Health — Book Today</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- SUCCESS / TRANSFORMATION -->
+    <section class="success-section" id="success">
+      <div class="container">
+        <div class="success-grid">
+          <div class="success-image reveal-item">
+            <img src="images/happy-recovery.jpg" alt="Happy dog and owner — pet health restored" loading="lazy">
+          </div>
+          <div class="success-copy reveal-item" style="--delay: 0.15s">
+            <span class="label-tag">Life With Hitchin Vets</span>
+            <h2>Imagine knowing your pet is in the best possible hands</h2>
+            <p>You call with a concern and you're heard — not rushed. Your vet examines your pet, explains what's happening, and gives you honest options. No guesswork. No anxiety that you're being overcharged.</p>
+            <p>Your pet recovers faster because the treatment is right. Your cat stays calm during visits. Your dog's old injury is managed so he can still enjoy walks. Your kitten gets the right vaccinations and grows up healthy.</p>
+            <div class="success-callout">
+              <p>You have a relationship with your vet — someone who knows your pet's history, remembers their name, and genuinely cares. When something worries you, you call because you know the answer will be honest, expert, and kind.</p>
+            </div>
+            <p class="success-cta-line"><strong>That's the Hitchin Vets difference.</strong></p>
+            <button class="btn btn-primary cta-trigger">Book Your First Appointment</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="final-cta-section" id="final-cta">
+      <div class="container">
+        <div class="final-cta-inner reveal-item">
+          <h2>Your Pet Deserves the Best. So Do You.</h2>
+          <p>Hitchin Veterinary Surgery is here for your pet's health — from routine care to emergency treatment to specialist surgery. We're independent, employee-owned, and equipped with advanced technology. Most importantly, we genuinely care.</p>
+          <p class="cta-sub">Don't wait until there's an emergency. Book a consultation today.</p>
+          <div class="final-cta-actions">
+            <button class="btn btn-light btn-lg cta-trigger">Book an Appointment</button>
+            <a href="tel:01462436963" class="btn btn-outline-light btn-lg">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" fill="currentColor"/></svg>
+              01462 436963
+            </a>
+          </div>
+          <p class="cta-hours">Mon–Fri 9am–5:30pm &nbsp;·&nbsp; Sat 9am–11am &nbsp;·&nbsp; Same-day emergency appointments available</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="images/logo.png" alt="Hitchin Veterinary Surgery" width="120" height="44" class="footer-logo">
+          <p class="footer-tagline">Your Pet. Our Passion. Expert Care.</p>
+          <p class="footer-description">Employee-owned since May 2023. Independent. Cat Friendly Clinic certified.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#">General Consultations</a></li>
+            <li><a href="#">Emergency Care</a></li>
+            <li><a href="#">Advanced Surgery</a></li>
+            <li><a href="#">Cat Friendly Clinic</a></li>
+            <li><a href="#">Dentistry &amp; Imaging</a></li>
+            <li><a href="#">Nurse Clinics</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <address>
+            <p>Hitchin Veterinary Surgery<br>Hitchin, Hertfordshire</p>
+            <p><a href="tel:01462436963">01462 436963</a></p>
+            <p><a href="mailto:info@hitchinvets.co.uk">info@hitchinvets.co.uk</a></p>
+            <p class="footer-hours">Mon–Fri: 9am–5:30pm<br>Sat: 9am–11am</p>
+          </address>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copy">&copy; 2025 Hitchin Veterinary Surgery</p>
+        <p class="dreamfree-credit">Demo built by <a href="https://dreamfree.co.uk" target="_blank" rel="noopener">Dreamfree</a> &middot; dreamfree.co.uk</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
